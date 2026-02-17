@@ -3,8 +3,8 @@
 Commercial management application developed with Spring Boot and React, designed with a focus on scalability and security using Spring Security and JWT. The system integrates inventory control modules and a credit-based reservation engine, featuring an automated notification system through third-party API integrations (Twilio and Jetmail). The project includes PostgreSQL persistence with Hibernate, endpoint documentation with Swagger, and the use of Docker for environment deployment.
 
 ## Technologies
-- **Backend:** Java 17, Spring Boot, Spring Security, Hibernate
-- **Frontend:** React
+- **Backend:** Java, Spring Boot, Spring Security, Hibernate
+- **Frontend:** React, TypeScript, Vite
 - **Database:** PostgreSQL
 - **Infrastructure:** Docker, Maven
 - **External APIs:** Twilio (WhatsApp), Jetmail (Email)
