@@ -1,30 +1,30 @@
-# TRABAJO PRÁCTICO DE DISEÑO DE SISTEMAS
+# Commercial Management System
 
-## Backend (Java / Spring Boot)
+Commercial management application developed with Spring Boot and React, designed with a focus on scalability and security using Spring Security and JWT. The system integrates inventory control modules and a credit-based reservation engine, featuring an automated notification system through third-party API integrations (Twilio and Jetmail). The project includes PostgreSQL persistence with Hibernate, endpoint documentation with Swagger, and the use of Docker for environment deployment.
 
-### Requisitos
-- **Java JDK 17** o superior  
-  Descargar de: [Adoptium Temurin 17](https://adoptium.net/es/temurin/releases?version=17)  
-- **Maven** incluido en el proyecto (wrapper `mvnw`)  
+## Technologies
+- Backend: Java 17, Spring Boot, Spring Security, Hibernate
+- Frontend: React
+- Database: PostgreSQL
+- Infrastructure: Docker, Maven
+- External APIs: Twilio (WhatsApp), Jetmail (Email)
 
-### Instalación de Java
-1. Descomprimir el JDK en:
-  `C:\Program Files (x86)\Java\jdk-17.0.16+8` 
+## Getting Started
+Prerequisites
+- Java JDK 17+
+- PostgreSQL instance running
 
-2. Configurar variables de entorno:
-  - Crear la variable de sistema JAVA_HOME apuntando al JDK `C:\Program Files (x86)\Java\jdk-17.0.16+8`
-  - Agregar `%JAVA_HOME%\bin` al `PATH` de las variables del sistema
+Installation & Execution
+- Clone the repository.
+```bash git clone https://github.com/nvelascopinto/TP-DDSI-2025.git```
+- Navigate to the backend folder:
+```bash cd TP-DDS-VKR/backend ```
+- Run the application using the Maven wrapper:
+```bash ./mvnw spring-boot:run ```
 
-3. Verificar instalación:
-- Abrir PowerShell o CMD y ejecutar:
-  `java -version` y `javac -version`
-
-### Ejecución del backend
-- Abrir una terminal y moverse a la carpeta:
-  `TP-DDS-VKR\backend`
-
-- Primera ejecución (compila todo desde cero):
-  `.\mvnw clean spring-boot:run`
-
-- Ejecuciones posteriores:
-  `.\mvnw spring-boot:run`
+## Development Team
+- Nicole Velasco [@nvelascopinto](https://github.com/nvelascopinto)
+- Andrea Villanueva [@andrudenisse](https://github.com/andrudenisse)
+- Aylen Diaz [@aylencandela](https://github.com/aylencandela)
+- Natalia Bovarines [@NataliaBovarines](https://github.com/NataliaBovarines)
+- Viktor Valentin [@victorvalentin](https://github.com/victorvalentin)
