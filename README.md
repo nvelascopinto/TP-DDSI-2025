@@ -16,11 +16,17 @@ Prerequisites
 
 Installation & Execution
 - Clone the repository.
-```bash git clone https://github.com/nvelascopinto/TP-DDSI-2025.git```
+```bash
+git clone https://github.com/nvelascopinto/TP-DDSI-2025.git
+```
 - Navigate to the backend folder:
-```bash cd TP-DDS-VKR/backend ```
+```bash
+cd TP-DDS-VKR/backend
+```
 - Run the application using the Maven wrapper:
-```bash ./mvnw spring-boot:run ```
+```bash
+./mvnw spring-boot:run
+```
 
 ## Development Team
 - Nicole Velasco [@nvelascopinto](https://github.com/nvelascopinto)
